@@ -8,7 +8,7 @@ Foi baseado no Epic Rpg, um bot de rpg para o discord, porém com algumas altera
 
 ## Installation
 
-Para instalar o bot, basta clonar o repositório, e instalar as dependências com o comando `pip in`.
+Para instalar o bot, basta clonar o repositório, e instalar as dependências com o comando `pip install -r requirements.txt`.
 
 ## Usage
 
