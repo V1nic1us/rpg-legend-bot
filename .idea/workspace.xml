@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63b0a320-ffc0-4dd5-a8d9-1b2e3e82f294" name="Changes" comment="add README.md and LICENSE">
+    <list default="true" id="63b0a320-ffc0-4dd5-a8d9-1b2e3e82f294" name="Changes" comment="chore: idea config">
       <change afterPath="$PROJECT_DIR$/src/entity/User.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/repository/UserRepository.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/services/UserService.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commands/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/commands/basic_commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/events/bot_started.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/events/bot_started.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +42,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Main.executor": "Run",
+    "Python.Unnamed.executor": "Run",
+    "Python.basic_commands.executor": "Run",
     "Python.bot_started.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/viniv/PycharmProjects/rpg-legend-bot/src/main.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,31 +66,6 @@
       <recent name="C:\Users\viniv\PycharmProjects\rpg-legend-bot\src\commands" />
       <recent name="C:\Users\viniv\PycharmProjects\rpg-legend-bot\src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="rpg-legend-bot" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\viniv\PycharmProjects\rpg-legend-bot\src\commands\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -101,7 +84,10 @@
       <updated>1706160321846</updated>
       <workItem from="1706160324566" duration="3374000" />
       <workItem from="1706187645274" duration="6304000" />
-      <workItem from="1706406308782" duration="6996000" />
+      <workItem from="1706406308782" duration="7371000" />
+      <workItem from="1706455673359" duration="844000" />
+      <workItem from="1706456535489" duration="2823000" />
+      <workItem from="1706497311122" duration="8272000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -119,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706413321930</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: incorrect installation command">
+      <option name="closed" value="true" />
+      <created>1706413498550</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706413498550</updated>
+    </task>
+    <task id="LOCAL-00004" summary="chore: idea config">
+      <option name="closed" value="true" />
+      <created>1706413545434</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706413545434</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,10 +141,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="add README.md and LICENSE" />
-    <option name="LAST_COMMIT_MESSAGE" value="add README.md and LICENSE" />
+    <MESSAGE value="fix: incorrect installation command" />
+    <MESSAGE value="chore: idea config" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: idea config" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/rpg_legend_bot$main.coverage" NAME="main Coverage Results" MODIFIED="1706411276268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/rpg_legend_bot$Main.coverage" NAME="Main Coverage Results" MODIFIED="1706500674738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/rpg_legend_bot$basic_commands.coverage" NAME="basic_commands Coverage Results" MODIFIED="1706504195285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/commands" />
+    <SUITE FILE_PATH="coverage/rpg_legend_bot$main.coverage" NAME="main Coverage Results" MODIFIED="1706505496608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/rpg_legend_bot$bot_started.coverage" NAME="bot_started Coverage Results" MODIFIED="1706412144850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/events" />
   </component>
 </project>
